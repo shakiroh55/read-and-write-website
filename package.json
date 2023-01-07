@@ -11,7 +11,7 @@
     "react-router-dom": "^6.6.1",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4",
-    "homepage": "https://shakiroh55.github.io/Read-and-write/"
+    "homepage": "https://github.com/shakiroh55/read-and-write-website.git"
   },
   "scripts": {
     "start": "react-scripts start",
