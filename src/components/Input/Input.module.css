@@ -1,0 +1,315 @@
+.topCont {
+  font-family: "MuseoModerno";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 36px;
+  color: #136f63;
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.titleCont {
+  display: grid;
+  justify-content: space-between;
+  max-width: 60%;
+  margin: auto;
+  padding: 0px;
+}
+.titleCont h4 {
+  font-family: "MuseoModerno";
+  font-style: normal;
+  font-weight: 350;
+  font-size: 19px;
+  line-height: 37px;
+  color: #136f63;
+}
+.titleCont .input1 {
+  border: 1px solid #22aaa1;
+  filter: drop-shadow(0px 4px 4px rgba(34, 170, 161, 0.25));
+  width: 70%;
+  display: block;
+  height: 40px;
+  margin-bottom: 20px;
+}
+.titleCont .inputTop {
+  border: 1px solid #22aaa1;
+  filter: drop-shadow(0px 4px 4px rgba(34, 170, 161, 0.25));
+  width: 70%;
+  display: block;
+  font-size: 9px;
+  height: 30px;
+  padding-top: 10px;
+  padding-left: 5px;
+  color: rgba(0, 0, 0, 0.822);
+}
+.titleCont .inputBottom {
+  border: 1px solid #22aaa1;
+  filter: drop-shadow(0px 4px 4px rgba(34, 170, 161, 0.25));
+  width: 70%;
+  display: block;
+  height: 40px;
+  font-size: 15px;
+  margin-bottom: 30px;
+  color: rgba(0, 0, 0, 0.404);
+  padding-top: 5px;
+  padding-left: 5px;
+  display: flex;
+  justify-content: right;
+}
+.titleCont .input2 {
+  border: 1px solid #22aaa1;
+  filter: drop-shadow(0px 4px 4px rgba(34, 170, 161, 0.25));
+  height: 300px;
+  width: 70%;
+  display: block;
+  margin-top: 0px;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: top;
+  vertical-align: text-top;
+  padding-top: 10px;
+  padding-left: 5px;
+}
+
+.titleCont button {
+  background: #22aaa1;
+  border-radius: 6px;
+  border: none;
+  display: block;
+  cursor: pointer;
+  padding: 10px 30px;
+}
+.titleCont button:hover {
+  background-color: #22aaa1c4;
+}
+.titleCont button {
+  text-decoration: none;
+  color: #ffffff;
+}
+.Link {
+  text-decoration: none;
+}
+
+@media only screen and (min-width: 1100px) {
+  .titleCont .input1 {
+    width: 180%;
+  }
+  .titleCont .inputTop {
+    width: 180%;
+  }
+  .titleCont .inputBottom {
+    width: 180%;
+  }
+  .titleCont .input2 {
+    width: 180%;
+  }
+  .topCont {
+    font-weight: 400px;
+    font-size: 21px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+  }
+  .titleCont h4 {
+    font-weight: 350;
+    font-size: 18px;
+  }
+  .titleCont .inputTop {
+    font-size: 9px;
+  }
+  .titleCont .input2 {
+    font-size: 15px;
+  }
+  
+}
+
+@media (min-width: 1024px) and (max-width: 1099px) {
+  .titleCont .input1 {
+    width: 150%;
+  }
+  .titleCont .inputTop {
+    width: 150%;
+  }
+  .titleCont .inputBottom {
+    width: 150%;
+  }
+  .titleCont .input2 {
+    width: 150%;
+  }
+  .topCont {
+    font-weight: 350px;
+    font-size: 20px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+  }
+  .titleCont h4 {
+    font-weight: 340;
+    font-size: 17px;
+  }
+  .titleCont .inputTop {
+    font-size: 9px;
+  }
+  .titleCont .input2 {
+    font-size: 14px;
+    height: 400px;
+  }
+  
+}
+
+@media (min-width: 900px) and (max-width: 1023px) {
+  .titleCont .input1 {
+    width: 140%;
+  }
+  .titleCont .inputTop {
+    width: 140%;
+  }
+  .titleCont .inputBottom {
+    width: 140%;
+  }
+  .titleCont .input2 {
+    width: 140%;
+  }
+  .topCont {
+    font-weight: 350px;
+    font-size: 19px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+  .titleCont h4 {
+    font-weight: 340;
+    font-size: 16px;
+  }
+  .titleCont .inputTop {
+    font-size: 9px;
+  }
+  .titleCont .input2 {
+    font-size: 13px;
+    height: 400px;
+  }
+  
+}
+
+@media (min-width: 720px) and (max-width: 899px) {
+  .titleCont .input1 {
+    width: 115%;
+  }
+  .titleCont .inputTop {
+    width: 115%;
+  }
+  .titleCont .inputBottom {
+    width: 115%;
+  }
+  .titleCont .input2 {
+    width: 115%;
+  }
+  .topCont {
+    font-weight: 350px;
+    font-size: 18px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+  .titleCont h4 {
+    font-weight: 320;
+    font-size: 15px;
+  }
+  .titleCont .inputTop {
+    font-size: 8px;
+  }
+  .titleCont .input2 {
+    font-size: 12px;
+  }
+  .titleCont .input2 {
+    font-size: 10px;
+    height: 300px;
+  }
+}
+
+@media (min-width: 560px) and (max-width: 719px) {
+  .titleCont .input1 {
+    width: 95%;
+  }
+  .titleCont .inputTop {
+    width: 95%;
+  }
+  .titleCont .inputBottom {
+    width: 95%;
+  }
+  .titleCont .input2 {
+    width: 95%;
+  }
+  .topCont {
+    font-weight: 300px;
+    font-size: 17px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .titleCont h4 {
+    font-weight: 320;
+    font-size: 14px;
+  }
+  .titleCont .inputTop {
+    font-size: 8px;
+  }
+  .titleCont .input2 {
+    font-size: 11px;
+  }
+  .titleCont .input2 {
+    font-size: 10px;
+    height: 400px;
+  }
+  
+}
+
+@media (min-width: 300px) and (max-width: 559px) {
+  .titleCont .input1 {
+    width: 80%;
+  }
+  .titleCont .inputTop {
+    width: 80%;
+  }
+  .titleCont .inputBottom {
+    width: 80%;
+  }
+  .titleCont .input2 {
+    width: 80%;
+  }
+  .topCont {
+    font-weight: 300px;
+    font-size: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .titleCont h4 {
+    font-weight: 300;
+    font-size: 13px;
+  }
+  .titleCont .inputTop {
+    font-size: 8px;
+  }
+  .titleCont .input2 {
+    font-size: 10px;
+    height: 500px;
+  }
+  
+}
+
+/* @media only screen and (min-width: 1100px) {
+}
+
+@media (min-width: 1024px) and (max-width: 1099px) {
+}
+
+@media (min-width: 900px) and (max-width: 1023px) {
+}
+
+@media (min-width: 720px) and (max-width: 899px) {
+}
+
+@media (min-width: 560px) and (max-width: 719px) {
+
+}
+
+@media (min-width: 300px) and (max-width: 559px) {
+
+} */

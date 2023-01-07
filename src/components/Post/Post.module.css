@@ -1,0 +1,118 @@
+.topCont {
+  font-family: "MuseoModerno";
+  font-style: normal;
+  font-weight: 350;
+  font-size: 20px;
+  line-height: 36px;
+  color: #136f63;
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.editbutton {
+  display: flex;
+  justify-content: right;
+  padding-right: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.editbutton button {
+  border: 4px solid #22aaa1;
+  border-radius: 4px;
+  padding: 5px 30px;
+  cursor: pointer;
+  color: #22aaa1;
+}
+.btn1 {
+  margin-right: 50px;
+  width: 100px;
+  font-size: 12px;
+}
+.btn2 {
+  width: 100px;
+  font-size: 12px;
+}
+.Link {
+  text-decoration: none;
+}
+
+@media only screen and (min-width: 1100px) {
+  .topCont {
+    font-weight: 400px;
+    font-size: 21px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+  }
+  .btn1 {
+    font-size: 11px;
+  }
+  .btn2 {
+    font-size: 11px;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1099px) {
+  .topCont {
+    font-weight: 350px;
+    font-size: 20px;
+  }
+  .btn1 {
+    font-size: 10px;
+  }
+  .btn2 {
+    font-size: 10px;
+  }
+}
+
+@media (min-width: 900px) and (max-width: 1023px) {
+  .topCont {
+    font-weight: 350px;
+    font-size: 19px;
+  }
+  .btn1 {
+    font-size: 9px;
+  }
+  .btn2 {
+    font-size: 9px;
+  }
+}
+
+@media (min-width: 720px) and (max-width: 899px) {
+  .topCont {
+    font-weight: 350px;
+    font-size: 18px;
+  }
+  .btn1 {
+    font-size: 8px;
+  }
+  .btn2 {
+    font-size: 8px;
+  }
+}
+
+@media (min-width: 560px) and (max-width: 719px) {
+  .topCont {
+    font-weight: 300px;
+    font-size: 17px;
+  }
+  .btn1 {
+    font-size: 7px;
+  }
+  .btn2 {
+    font-size: 7px;
+  }
+}
+
+@media (min-width: 250px) and (max-width: 559px) {
+  .topCont {
+    font-weight: 300px;
+    font-size: 15px;
+  }
+  .btn1 {
+    font-size: 7px;
+  }
+  .btn2 {
+    font-size: 7px;
+  }
+}

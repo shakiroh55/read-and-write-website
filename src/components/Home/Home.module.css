@@ -1,0 +1,89 @@
+.topCont {
+  font-family: "MuseoModerno";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 36px;
+  color: #136f63;
+  display: flex;
+  justify-content: center;
+  padding-top: 19px;
+  padding-bottom: 19px;
+}
+.TopHome {
+  display: flex;
+  flex-direction: column;
+  row-gap:70px;
+}
+.Home {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  row-gap: 50px;
+}
+.Home2 {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  row-gap: 50px;
+}
+.Link {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+
+@media only screen and (min-width: 1100px) {
+    .topCont {
+        font-weight: 400px;
+        font-size: 21px;
+        padding-top: 18px;
+        padding-bottom: 18px;
+      }
+}
+
+@media (min-width: 1024px) and (max-width: 1099px) {
+    .topCont {
+        font-weight: 350px;
+        font-size: 20px;
+        padding-top: 17px;
+        padding-bottom: 17px;
+      }
+}
+
+@media (min-width: 900px) and (max-width: 1023px) {
+    .topCont {
+        font-weight: 350px;
+        font-size: 19px;
+        padding-top: 16px;
+        padding-bottom: 16px;
+      }
+}
+
+@media (min-width: 720px) and (max-width: 899px) {
+    .topCont {
+        font-weight: 350px;
+        font-size: 18px;
+        padding-top: 16px;
+        padding-bottom: 16px;
+      }
+}
+
+@media (min-width: 560px) and (max-width: 719px) {
+    .topCont {
+        font-weight: 300px;
+        font-size: 17px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+      }
+}
+
+@media (min-width: 300px) and (max-width: 559px) {
+    .topCont {
+        font-weight: 300px;
+        font-size: 15px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+      }
+}
