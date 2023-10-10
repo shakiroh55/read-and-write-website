@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Article</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Bellefair&family=Caudex&family=Cinzel&family=EB+Garamond&family=Epilogue:wght@400;800&family=Kaushan+Script&family=Murecho:wght@400;500&family=MuseoModerno:wght@400;500&family=Nanum+Myeongjo&family=Open+Sans:wght@300&family=Outfit:wght@200&family=Paytone+One&family=Poppins:wght@100;300;700&family=Rajdhani:wght@300&family=Secular+One&family=Space+Grotesk&family=Teko:wght@300&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="padder">
+        <a href="index.html">
+            <div class="logo-cont">
+                <h1 class="logo">Read & Write</h1>
+            </div>
+        </a>
+        <div class="btn-cont">
+            <a href="post.html"><button class="main-btn">Be a Contributor</button></a>
+        </div> 
+    </header>
+    <section class="content padder">
+        <h1 class="new-title"></h1>
+        <div id="display">
+            <div>
+                <p><strong id="nameDisplay"></strong></p>
+            </div>
+            <div>
+                <p><strong id="nameDisplayy"></strong></p>
+            </div>
+        </div>
+        
+        <div class="ctrl-btns">
+            <a href="post.html"><button class="btn-ctrl" id="editButton">Edit</button></a>
+            <button class="btn-ctrl">DELETE</button>
+        </div>
+    </section>
+
+    <script>
+        // JavaScript code to retrieve and display the name from the URL
+        window.onload = function () {
+            const urlParams = new URLSearchParams(window.location.search);
+            const name = urlParams.get("name");
+            const namee = urlParams.get("namee");
+            document.getElementById("nameDisplay").textContent = name;
+            document.getElementById("nameDisplayy").textContent = namee;
+            const nameDisplay = document.getElementById("nameDisplay");
+            const editButton = document.getElementById("editButton");
+            
+        };
+    </script>
+
+
+
+<!-- <script>
+    // JavaScript code to display the name from the query parameter
+    window.onload = function () {
+        const urlParams = new URLSearchParams(window.location.search);
+        const name = urlParams.get("name");
+        const displayName = document.getElementById("displayName");
+        const editButton = document.getElementById("editButton");
+        
+        if (name) {
+            displayName.textContent = name;
+        }
+
+        editButton.addEventListener("click", function () {
+            const editedName = prompt("Edit your name:", name);
+            if (editedName !== null && editedName !== "") {
+                window.location.href = "page1.html?name=" + encodeURIComponent(editedName);
+            }
+        });
+
+    }
+    </script> -->
+
+
+
+
+</body>
+</html>

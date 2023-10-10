@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Bellefair&family=Caudex&family=Cinzel&family=EB+Garamond&family=Epilogue:wght@400;800&family=Kaushan+Script&family=MuseoModerno:wght@400;500&family=Nanum+Myeongjo&family=Open+Sans:wght@300&family=Outfit:wght@200&family=Paytone+One&family=Poppins:wght@100;300;700&family=Rajdhani:wght@300&family=Secular+One&family=Space+Grotesk&family=Teko:wght@300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    width: 100%;
+}
+button{
+    cursor: pointer;
+}
+#display{
+    /* background-color: yellow; */
+    margin-bottom: 300px;
+}
+#nameDisplay{
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+#nameDisplayy{
+   /* background-color: yellow; */
+   font-size: 22px;
+}
+@media(min-width:200px){
+header{
+    position: fixed;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content:space-between ;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 4px 1px rgba(76, 224, 210, 0.8);
+    
+}
+
+header button{
+    margin-right: 100px;
+}
+
+.padder{
+    padding:20px 50px;
+}
+
+.logo-cont{
+    display: flex;
+    align-items: center;
+    justify-content:start;
+}
+
+.logo{
+    font-family: 'MuseoModerno';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 41px;
+    color: #136F63;
+}
+
+.btn-cont{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.main-btn{
+    padding: 10px 30px;
+    background-color:  #22AAA1;
+    color: white;
+    border: none;
+    font-family: 'MuseoModerno';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+
+.title{
+    font-family: 'MuseoModerno';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 56px;
+    color: #136F63;
+}
+
+/* .content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 180px;
+} */
+
+a{
+    text-decoration: none;  
+}
+
+.stories{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 330px;
+    padding: 5px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 4px 1px rgba(76, 224, 210, 0.8);
+}
+
+.article-title {
+    font-family: 'MuseoModerno';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 37px;
+    color: #136F63; 
+}
+
+.article-content{
+    font-family: 'Murecho';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 23px;
+    color: #000000;
+}
+
+.article-date{
+    font-family: 'Murecho';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 23px;
+    color: #136F63;
+    align-self: flex-end;
+}
+
+/* =========================================POST PAGE====================================== */
+
+.post-p{
+    font-family: 'MuseoModerno';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 37px;
+    color: #136F63;
+    margin-top: 20px;
+}
+
+.input-cont{
+    width: 100%;
+}
+
+.input-cont input:focus-visible{
+    outline: none;
+}
+
+.title-in{
+    width: 100%;
+    height: 50px;  
+    filter: drop-shadow(0px 4px 4px rgba(34, 170, 161, 0.25));
+    border: 1px solid #22AAA1;
+}
+
+.article-in{
+    width: 100%;
+    height: 250px; 
+    filter: drop-shadow(0px 4px 4px rgba(34, 170, 161, 0.25));
+    border: 1px solid #22AAA1;
+}
+
+.publish-btn{
+    padding: 10px 40px;
+    background-color:  #22AAA1;
+    color: white;
+    border: none;
+    font-family: 'MuseoModerno';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 29px;
+    color: #FFFFFF;
+    margin-top: 20px;
+}
+
+/* ========================================PUBLISHED==================================== */
+.story-content{
+    font-family: 'Murecho';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 25px;
+    color: #000000;
+}
+
+.ctrl-btns{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-self: flex-end;
+    margin-top: 20px;
+}
+
+.btn-ctrl{
+    width: 120px;
+    height: 45px;
+    border: 4px solid #22AAA1;
+    border-radius: 4px;
+}
+}
+
+@media(min-width:760px){
+.content{
+    padding-top: 150px;
+}
+
+.stories{
+    grid-template-columns:1fr 1fr;
+}
+}
+
+@media(min-width:1024px){
+.stories{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+}
